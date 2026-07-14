@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ff5100;
+    font-family: "Poppins", sans-serif;
+}
+
+.card{
+    width: 30%;
+    background-color: rgb(245, 201, 5);
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.card h2{
+    font-size: 2rem;
+    background-color: #ff5100;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.job{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.card button{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(234, 64, 12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button:hover{
+    background-color: rgb(109, 1, 1);
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: 0 0 10px gray;
+}
