@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Roboto,sans-serif;
+}
+
+
+nav{
+
+    position:sticky;
+    top:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:10px 80px;
+
+    background-color:rgba(0, 0, 0, 0.179);
+
+    z-index:100;
+}
+
+nav h2{
+
+    color:white;
+
+    font-family:Alegreya,serif;
+
+    font-size:35px;
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+}
+
+nav li{
+
+    margin-left:25px;
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+}
+
+
+
+.parent{
+
+    height:100vh;
+
+
+    background-image:url("../images/WhatsApp Image 2026-07-15 at 8.00.24 AM.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    margin:20px 0;
+
+    font-family:Alegreya,serif;
+}
+
+.hero p{
+
+    width:50%;
+
+    line-height:30px;
+
+    margin-bottom:20px;
+}
+
+button{
+
+    width:140px;
+
+    height:50px;
+
+    border:none;
+
+    cursor:pointer;
+
+    margin:10px;
+
+    border-radius:5px;
+
+    font-size:16px;
+}
+
+.btn1{
+
+    background:#c1a45fb4;
+
+    color:white;
+}
+
+.btn2{
+
+    background:transparent;
+
+    color:white;
+
+    border:2px solid white;
+}
+
+button:hover{
+
+    opacity:.8;
+}
+
+.about{
+
+    width:85%;
+
+    margin:70px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:50px;
+}
+
+.image{
+
+    width:50%;
+}
+
+.image img{
+
+    width:100%;
+}
+
+.content{
+
+    width:50%;
+}
+
+.content h2{
+
+    font-size:35px;
+
+    margin-bottom:20px;
+
+    font-family:Alegreya,serif;
+}
+
+.content p{
+
+    line-height:30px;
+
+    margin-bottom:15px;
+
+    color:#555;
+}
