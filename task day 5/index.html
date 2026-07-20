@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="css/styel.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Main</a>
+        <a href="#">Make Order</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <h1>Pizza King</h1>
+
+    <p>
+        Our pizza is available for delivery. Create your own pizza and we will deliver it to you.
+    </p>
+
+    <form>
+
+        <fieldset>
+            <legend>Your Info</legend>
+
+            <label>Name</label><br>
+            <input type="text"><br><br>
+
+            <label>Address</label><br>
+            <input type="text"><br><br>
+
+            <label>Phone Number</label><br>
+            <input type="tel"><br><br>
+
+            <label>Delivery Instruction</label><br>
+            <textarea rows="5"></textarea>
+        </fieldset>
+
+        <h2>Make Your Own Pizza</h2>
+
+        <fieldset>
+
+            <legend>Pizza Specs</legend>
+
+            <fieldset>
+                <legend>Crust</legend>
+
+                <input type="radio" name="crust"> Classic White <br>
+                <input type="radio" name="crust"> Multigrain <br>
+                <input type="radio" name="crust"> Cheese-stuffed Crust <br>
+                <input type="radio" name="crust"> Gluten-free
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Toppings</legend>
+
+                <input type="checkbox"> Red Sauce <br>
+                <input type="checkbox"> White Sauce <br>
+                <input type="checkbox"> Mozzarella Cheese <br>
+                <input type="checkbox"> Pepperoni <br>
+                <input type="checkbox"> Mushrooms <br>
+                <input type="checkbox"> Peppers <br>
+                <input type="checkbox"> Anchovies
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Number</legend>
+
+                <label>How many pizzas?</label><br><br>
+                <input type="number" min="1">
+            </fieldset>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Confirm Order">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
